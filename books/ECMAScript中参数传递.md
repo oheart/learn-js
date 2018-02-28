@@ -1,5 +1,3 @@
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
 ## 参数传递
 ECMAScript中所有函数的参数都是按值传递的。也就是说，把函数外部的值复制给函数内部的参数，就和把值从一个变量复制到另一个变量一样。基本类型值的传递如同基本类型变量的复制一样，而引用类型值的传递，则如同引用类型变量的复制一样，这个时候的值是地址拷贝（或者说是副本）。**故参数只能按值传递**。
 
@@ -31,7 +29,7 @@ console.log(count);   //20, 没有变化
 console.log(result); //30
 ```
 
-2. 引用类型示例1如下： 
+2. 引用类型示例一如下： 
 ```JS
 function setName(obj){
     obj.name = 'Nicholas';
@@ -52,7 +50,7 @@ var person = new Object();
 setName(person);
 console.log(person.name);  //  'Nicholas'
 ```
-3. 引用类型示例2如下：
+3. 引用类型示例二如下：
 ```js
 function setName(obj){
     obj.name = 'Nicholas';
