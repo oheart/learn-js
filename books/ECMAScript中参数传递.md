@@ -17,7 +17,7 @@ console.log(result); //30
 ```
 上面代码可改装为：
 ```js
-function addTen(num){
+function addTen(){
     var num = arguments[0];
     num += 10;
     return num;
@@ -41,7 +41,7 @@ console.log(person.name);  //  'Nicholas'
 ```
 上面代码可改装为：
 ```JS
-function setName(obj){
+function setName(){
     var obj = arguments[0];
     obj.name = 'Nicholas';
 }
@@ -65,7 +65,7 @@ console.log(person.name); //  'Nicholas'
 ```
 上面代码可改装为：
 ```js
-function setName(obj){
+function setName(){
     var obj = arguments[0];
     obj.name = 'Nicholas';
     obj = new Object();
@@ -118,12 +118,12 @@ incObject(obj2);
 console.log(obj2.count);  // 2
 console.log(count);  // 1
 
-function incNumber(count){
+function incNumber(){
     var count = arguments[0]; // count里面存的是内容，拷贝的也是内容
     return ++count;
 }
 
-function incObject(obj){
+function incObject(){
     var obj = arguments[0]; //obj里面存储的是地址，拷贝的也是地址，操作的是同一地址指向的那片区域
     obj.count++;
 }
