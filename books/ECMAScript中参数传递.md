@@ -131,7 +131,7 @@ function incObject(obj){
 
 
 ## 参考阅读
-1. [JavaScript高级程序设计-第四章>传递参数>70页]()
+1. JavaScript高级程序设计-第四章>传递参数>70页
 2. [引用类型
 ](https://xiedaimala.com/courses/b8b4c00c-6798-4caf-8bfe-ba9fbb4c6d3d/tasks/b5f1b753-cfe0-4a1b-b57a-4c60414bf2f0)
 3. [求值策略(Evaluation strategy)](http://www.cnblogs.com/TomXu/archive/2012/02/08/2341439.html)
