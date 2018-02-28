@@ -29,7 +29,7 @@ console.log(count);   //20, 没有变化
 console.log(result); //30
 ```
 
-2. 引用类型示例一如下： 
+2. 引用类型示例一如下： 
 ```JS
 function setName(obj){
     obj.name = 'Nicholas';
@@ -50,7 +50,7 @@ var person = new Object();
 setName(person);
 console.log(person.name);  //  'Nicholas'
 ```
-3. 引用类型示例二如下：
+3. 引用类型示例二如下：
 ```js
 function setName(obj){
     obj.name = 'Nicholas';
